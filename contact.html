@@ -152,7 +152,18 @@ button:hover, a:hover {
     <a href="https://www.instagram.com/mak_4125"><i class="fa fa-instagram"></i></a>  
     <a href="https://www.facebook.com/ashok.billa.716"><i class="fa fa-facebook"></i></a> 
   </div>
-  <p><button>Contact</button></p>
+	<div class="popup" onclick="myFunction()"><p><button>Contact</button></p>
+  <span class="popuptext" id="myPopup">8897720622!</span>
+</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+  
 </div>
 </body>
 </html>
